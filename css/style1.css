@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+    font-weight: 400;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    padding: 30px 50px;
+    float: left;
+}
+.header img{
+    float: left;
+    margin-left: 50px;
+}
+.header h1{
+    float: left;
+    color: rgb(249,163,146);
+    margin: 0px 50px;
+    font-weight: 200;
+    position: relative;
+}
+small{
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 100;
+    margin-left: -120px;
+    padding: 0px;
+    color: rgb(249,163,146);
+    position: absolute;
+}
+ul{
+    float: right;
+    margin: 20px 70px;
+    padding: 0px 30px;
+}
+li, li a{
+    text-decoration: none;
+    display: inline;
+    color: rgb(249,163,146);
+    padding: 0px 12px;
+}
+.clear{
+    clear: both;
+}
+hr{
+    height: 3px;
+    border: none;
+    background-color: rgb(249,163,146);
+    margin-top: 5px;
+}
+.body{
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+marquee{
+    font-size: large;
+    color: red;
+    font-weight: 200;
+}
+.div{
+    margin-top: 55px;
+    margin-left: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    color:rgb(241, 115, 90);
+    width: 75%;
+    height: 35vh;
+    padding: 30px;
+    text-align: left;
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 5px;
+
+}
+/* .flex{
+    display: flex;
+} */
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(241, 115, 90);
+    border: none;
+    cursor: pointer;
+    color: white;
+	border: 3px solid rgb(241, 115, 90);
+    border-radius: 20px;
+
+}
+
+h1{color:palevioletred;}
+
+footer{
+    margin-top: 38px;
+    background-color: white;
+    height: 40px;
+}
+footer hr{
+    height: 2px;
+    background-color: rgb(241, 115, 90);
+    margin-bottom: 5px;
+}
+#right{
+    float: right;
+}
+#right a{
+    padding-right: 20px;
+}
+@media screen and (max-width:768px){
+    .body{
+        width: 100%;
+    }
+    .header{
+        height: 60px;
+        width: 100%;
+        padding: 0px 5px;
+        float: left;
+    }
+    .header img{
+        width: 50px;
+        float: left;
+        margin: 0px;
+    }
+    .header h1{
+        float: left;
+        color: rgb(249,163,146);
+        margin: 0px 5px;
+        font-weight: 200;
+        position: relative;
+    }
+    small{
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 100;
+        margin-left: -70px;
+        padding: 0px;
+        color: rgb(249,163,146);
+        position: absolute;
+    }
+    ul{
+        font-size: 10px;
+        float: left;
+        margin: 0px 0px;
+        margin-top: 50px;
+        padding: 0px 5px;
+    }
+    .links{
+        display: none;
+    }
+    .toggle{
+        display: block;
+        position: relative;
+        width: 80px;
+        height: 120px;
+        overflow: hidden;
+        background-color: #fff;
+        float: right;
+    }
+    .hamburger{
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 10px;
+        float: right;
+        position: relative;
+        display: block;
+    }
+    .hamburger :hover{
+        cursor: pointer;
+    }
+    .lines{
+        display: block;
+        width: 37px;
+        height: 4px;
+        background-color: rgb(241, 115, 90);  
+        margin-bottom: 3px;
+        /* padding: 10px; */
+    }
+    li, li a{
+        text-decoration: none;
+        display: inline;
+        color: rgb(249,163,146);
+        padding: 0px 3px;
+        font-size: 15px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    hr{
+        height: 1px;
+        border: none;
+        background-color: rgb(249,163,146);
+        margin-top: 3px;
+    }
+    p{
+        font-size: 12px;
+    }
+    footer{
+        margin-top: 38px;
+        background-color: white;
+        height: 40px;
+    }
+    footer hr{
+        height: 1px;
+        background-color: rgb(241, 115, 90);
+        margin-bottom: 5px;
+
+    }
+    #right a{
+        padding-right: 10px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    
+}
